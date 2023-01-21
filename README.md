@@ -30,5 +30,3 @@ functions with more simplicity, making it useful due to the nature of documentat
 practical to use.
 
 ***
-
-![END](https://tenor.com/es-MX/view/sylveon-gif-21438371)
