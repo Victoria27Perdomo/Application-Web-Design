@@ -25,9 +25,10 @@
 ### What is Markdown used for
 
 Markdown is a markup language used mainly for documentation on repositories like GitHub or GitLab; it's main purpose its to allow users to add formatting elements to plain text without
-the need to use a a text editor or HTML tags, for example, instead of using an HTML tag like "<h1>" for a heading, we can use "#" instead, allowing us to implement the same functions with
-more simplicity, making it useful due to the nature of documentation files, which more often than not tends to be quite extensive, making the Markdown language far more practical to use.
+the need to use a a text editor or HTML tags, for example, instead of using an HTML tag like "h1" for a heading, we can use a hash symbol instead, allowing us to implement the same 
+functions with more simplicity, making it useful due to the nature of documentation files, which more often than not tends to be quite extensive, making the Markdown language far more 
+practical to use.
 
 ***
 
-![END](https://i.pinimg.com/originals/a8/e8/7b/a8e87bf4b0049119fed44393857a5278.gif)
+![END](https://tenor.com/bB7gl.gif)
