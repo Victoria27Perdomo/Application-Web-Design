@@ -83,7 +83,7 @@ To add an image file we follow a method similar to the hyperlink, but we just ad
 
 \!\[Name](Link)
 
-![SylveonGIF](https://tenor.com/bB7gl.gif)
+![SylveonGIF](https://pin.it/3vxSRlE)
 
 ---
 
