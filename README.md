@@ -41,25 +41,25 @@ practical to use.
 
 #### Heading
 
-\Use # for creating a heading, the number of # will impact the size:
+Use \# for creating a heading, the number of \# will impact the size:
 
-\ # Size 1 (Maximum size)
+\# Size 1 (Maximum size)
 
-\ ## Size 2
+\## Size 2
 
-\ ### Size 3
+\### Size 3
 
-\ #### Size 4
+\#### Size 4
 
-\ ##### Size 5
+\##### Size 5
 
-\ ###### Size 5 (Minimum size)
+\###### Size 5 (Minimum size)
 
 ---
 
 #### Quote and copyright
 
-\Use > for creating a quote and the &copy method for copyright symbol.
+Use \> for creating a quote and the &copy method for copyright symbol.
 
 > This is a quote
 
@@ -69,9 +69,9 @@ practical to use.
 
 #### Hyperlink
 
-\To add a hyperlink we type the name inside square brackets [] and the link inside round brackets ():
+To add a hyperlink we type the name inside square brackets [] and the link inside round brackets ():
 
-[Name](Link "Name")
+\[Name](Link "Name")
 
 [YouTube](https://www.youtube.com/ "YouTube")
 
@@ -79,17 +79,17 @@ practical to use.
 
 #### Image file
 
-\To add an image file we follow a method similar to the hyperlink, but we just add an exclamation mark ! before the square brackets []:
+To add an image file we follow a method similar to the hyperlink, but we just add an exclamation mark ! before the square brackets []:
 
-![Name](Link)
+\![Name](Link)
 
-![SylveonGIF](https://pin.it/65Bmfi4)
+![SylveonGIF](https://tenor.com/bB7gl.gif)
 
 ---
 
 #### Code
 
-\To add a line of code we use backquotes ` `:
+\To add a line of code we use backquotes \`\`:
 
 \`int N;`
 
@@ -99,17 +99,17 @@ practical to use.
 
 #### Code blocks
 
-\To add a block of multiple lines of code we use 3 backquotes before and after:
+To add a block of multiple lines of code we use 3 backquotes before and after:
 
 \```
 
-\void (main) {
+void (main) {
 
-\	int N = 0;
+	int N = 0;
 
-\	int N1 = N + 1;
+	int N1 = N + 1;
 
-\}
+}
 
 \```
 
@@ -124,7 +124,7 @@ void (main) {
 
 #### Table
 
-\To create a table we must follow the next structure:
+To create a table we must follow the next structure:
 
 \|Heading |Heading |Heading |
 
@@ -132,7 +132,7 @@ void (main) {
 
 \|Info    |Info    |Info    |
 
-\We must consider that the dash - symbolizes the number of characters allowed, for example 2 dashes -- means that the column size cannot go over 2 characters 
+We must consider that the dash - symbolizes the number of characters allowed, for example 2 dashes \-- means that the column size cannot go over 2 characters 
 (this does not affect the heading).
 
 |Name   |Age |Career |
@@ -143,11 +143,14 @@ void (main) {
 
 #### List
 
-\To create a list we must simply use numbers and symbols, for example:
+To create a list we must simply use numbers and symbols, for example:
 
 \1. Item
+
 \2. Item
+
 \	* Sub-item
+
 \* Unordered item
 
 1. One
@@ -159,18 +162,19 @@ void (main) {
 
 #### Taglist
 
-\To create a taglist we must use both dashes and square brackets, the dash - must go before the square brackets [], for example:
+To create a taglist we must use both dashes and square brackets, the dash - must go before the square brackets [], for example:
 
 \-[] Hello
 
 -[] Hello
+
 -[x] Hi
 
 ---
 
 #### Lines
 
-\To create lines we must simply add 3 dashes --- or asterisks ***, for example:
+To create lines we must simply add 3 dashes \--- or asterisks \***, for example:
 
 This line was created with 3 dashes
 
@@ -190,7 +194,7 @@ This line was created with 3 asterisks
 
 We use the following command when we want to check the status of our local repository:
 
-	**git status**
+	git status
 
 ***
 
@@ -198,11 +202,11 @@ We use the following command when we want to check the status of our local repos
 
 When we want to add a new file individually to our repository we use the following command:
 
-	**git add [file-name.txt]**
+	git add [file-name.txt]
 
 But when we want to add all files we use the next command:
 
-	**git add -A**
+	git add -A
 
 ***
 
@@ -210,7 +214,7 @@ But when we want to add all files we use the next command:
 
 When we do a commit we can include a comment to indicate the purpose of the commit, like a change made, a new file, etc., we use the following command:
 
-	**git commit -m "[commit message]"**
+	git commit -m "[commit message]"
 
 ***
 
@@ -219,7 +223,7 @@ When we do a commit we can include a comment to indicate the purpose of the comm
 To upload changes made to the repository we use the push command, however it is worth mentioning that there a different push commands based on the type of operation we want to do, but 
 the command for uploading changes mainly is:
 
-	**git push**
+	git push
 
 ***
 
@@ -229,15 +233,15 @@ To manipulate branches we use the branch command, and just like the push command
 
 To create a branch we use:
 
-	**git branch [branch name]**
+	git branch [branch name]
 
 To search a branch we use:
 
-	**git branch**
+	git branch
 
 To delete a branch we use:
 
-	**git branch -d [branch name]**
+	git branch -d [branch name]
 
 ***
 
@@ -246,7 +250,7 @@ To delete a branch we use:
 Rolling back means we want to go back to a commit done before, it can also be considered as undoing an action or going back to a certain point in our operations, to do this we use the 
 following command:
 
-	**git reset commithash** (commithash is the first 7 characters of the commit we can find in the log)
+	git reset commithash (commithash is the first 7 characters of the commit we can find in the log)
 
 ***
 
