@@ -81,7 +81,7 @@ To add a hyperlink we type the name inside square brackets [] and the link insid
 
 To add an image file we follow a method similar to the hyperlink, but we just add an exclamation mark ! before the square brackets []:
 
-\![Name](Link)
+\!\[Name](Link)
 
 ![SylveonGIF](https://tenor.com/bB7gl.gif)
 
@@ -89,7 +89,7 @@ To add an image file we follow a method similar to the hyperlink, but we just ad
 
 #### Code
 
-\To add a line of code we use backquotes \`\`:
+To add a line of code we use backquotes \`\`:
 
 \`int N;`
 
@@ -105,9 +105,9 @@ To add a block of multiple lines of code we use 3 backquotes before and after:
 
 void (main) {
 
-	int N = 0;
+	\int N = 0;
 
-	int N1 = N + 1;
+	\int N1 = N + 1;
 
 }
 
@@ -164,7 +164,7 @@ To create a list we must simply use numbers and symbols, for example:
 
 To create a taglist we must use both dashes and square brackets, the dash - must go before the square brackets [], for example:
 
-\-[] Hello
+\-[] taglist
 
 -[] Hello
 
